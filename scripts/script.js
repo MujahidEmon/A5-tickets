@@ -21,8 +21,8 @@ for (let seat of seats) {
       const cell2 = newRow.insertCell();
       const cell3 = newRow.insertCell();
       cell1.innerText = seat.innerText;
-      cell2.innerText = "Economy";             // Row number
-      cell3.innerText = 500;                   // Column number
+      cell2.innerText = "Economy";
+      cell3.innerText = 500;                   
     } 
     else if (seat.classList.contains("selected")){
       seat.classList.remove("selected");
