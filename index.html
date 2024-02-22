@@ -60,9 +60,6 @@
           </ul>
         </div>
         <div class="navbar-end space-x-5">
-          <!-- <a
-            class="py-2 lg:py-3 px-4 lg:px-5 rounded-lg cursor-pointer bg-main-color hover:bg-[#c53c3c] text-white border-none text-sm lg:text-base font-semibold">Get
-            Ticket</a> -->
           <button
             class="py-2 lg:py-2 px-4 lg:px-5 rounded-lg duration-300 bg-[#1dd1001a] text-[#1DD100]  border-2 border-[#1dd10066] text-base font-semibold">Bus
             <i class="fa-solid fa-bus ml-1"></i></button>
@@ -70,7 +67,7 @@
       </div>
     </nav>
     <section class="relative">
-      <div class="hero lg:h-[550px] rounded-3xl" style="background-image: url(./images/banner.png);">
+      <div class="hero lg:h-[550px] rounded-3xl" style="background-image: url(images/banner.png);">
         <div class="hero-overlay bg-opacity-10 rounded-3xl"></div>
         <div class="hero-content text-center text-neutral-content">
           <div>
@@ -207,7 +204,8 @@
 
     <!-- Seat Number Display Section -->
     <div id="seat-section-container" class="mx-auto w-11/12 max-w-7xl flex gap-2 bg-white p-8 rounded-3xl mt-6">
-      <!-- Left side -->
+
+      <!-- Left Part -->
       <div class="w-[54%] border-r-2 border-dashed border-[#03071233] pr-6">
         <h3 class="text-2xl font-semibold border-b-2 border-dashed border-[#03071233] pb-4">Select Your Seat</h3>
         <div class="flex justify-between py-5 border-b-2 border-dashed border-[#03071233] font-inter">
@@ -332,35 +330,12 @@
         </div>
       </div>
 
-      <!-- Right Side -->
+      <!-- Right Part -->
       <div class="pl-4 flex-1">
         <div>
           <h3 class="text-2xl font-semibold border-b-2 border-dashed border-[#03071233] pb-4 ">Select Your Seat</h3>
         </div>
         <div class="bg-[#F7F8F8] rounded-3xl mt-4 px-8 py-8 font-inter">
-          <!-- <div class="flex justify-between pb-4 m-0 border-b-2 border-dashed border-[#03071233]">
-            <h3 class="text-lg font-semibold text-[#030712]">Seat <sup id="selected-count"
-                class="bg-main-color px-2 rounded-2xl text-white font-inter text-[12px]">0</sup>
-            </h3>
-            <h3 class="text-[#030712] font-semibold text-lg -ml-11">Class</h3>
-            <h3 class="text-[#030712] font-semibold text-lg">Price</h3>
-          </div>
-          <div class="py-4 m-0 border-b-2 border-[#03071233] space-y-2">
-            <div class="flex justify-between w-full">
-              <ul id="selected-seat-name" class="text-lg font-semibold text-[#03071299] flex gap-1">
-
-              </ul>
-              <h3 class="text-[#03071299] font-semibold text-lg">Economy</h3>
-              <h3 class="text-[#03071299] font-semibold text-lg">550</h3>
-            </div>
-            <div class="flex justify-between w-full">
-              <h3 class="text-lg font-semibold text-[#03071299]">A1</h3>
-              <h3 class="text-[#03071299] font-semibold text-lg">Economy</h3>
-              <h3 class="text-[#03071299] font-semibold text-lg">550</h3>
-            </div>
-          </div> -->
-
-          <!-- Table -->
           <div id="table">
             <div class="overflow-x-auto">
               <table id="selected-seats-table" class="table">
@@ -404,7 +379,7 @@
             class="input w-full focus:outline-1 focus:border-2 border border-[#0307121A]">
 
           <label for="" class="text-[#030712] font-semibold text-lg inline-block">Passenger Number*</label> <br>
-          <input type="number" placeholder="Enter your number" id="number-field"
+          <input type="tel" placeholder="Enter your number" id="number-field"
             class="input w-full focus:outline-1 focus:border-2 border border-[#0307121A]">
 
           <label for="" class="text-[#030712] font-semibold text-lg inline-block">Email ID*</label> <br>
